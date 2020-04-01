@@ -1,0 +1,61 @@
+body{
+    padding:0;
+    margin:0;
+  }
+/* body{
+    background-color:rgb(207, 219, 41);
+
+} */
+header{
+    background-color: crimson;
+    height:5em;
+}
+img
+{
+   margin-left: 0%; 
+   margin-top: 0px;
+   align-items: center;
+}
+img2
+{
+  margin-left: 40%; 
+
+   
+}
+.headne{
+  float:right; 
+   margin-top:0px; 
+   margin-right:55px;
+  
+       
+}
+.set{
+    padding-top: 10%;
+}
+HEADER1111
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 100px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* .myCarousel {
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+width: 70%;
+margin: auto;
+margin-left: 10%; 
+    }  */
+
