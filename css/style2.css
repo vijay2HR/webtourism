@@ -1,0 +1,85 @@
+
+*{
+  padding:0;
+  margin:0;
+}
+body{
+    background-size:cover;
+}
+
+header{
+    background-color:blue;
+    height: 5em;
+}
+
+img{
+    margin-left: 5%;
+    margin-top: 10px;
+    width:200px;
+    height:60px;
+}
+.head-tag{
+    float: right;
+    margin-top: 30px;
+    margin-right: 100px;
+
+}
+.head-tag a{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  background-color:black;
+  padding: 8px;
+  margin-right: 8px;
+}
+
+h1{
+    color: white;
+    padding-top: 25px;
+    padding-left: 10%;
+}
+/* .body-cont img{
+  width: 880px;
+  height: 150px;
+  padding-left: 0%;
+} */
+.body-cont marquee{
+  color: #7c3399 ;
+  font-size: 20px;
+  padding: 10px;
+}
+.body-cont1 img{
+  /* width: 150px; */
+  height: 300px;
+  /* padding-left: 0%; */
+}
+.body-cont1{
+  width: 40%;
+  border: 2px solid blue;
+  float: left;
+  padding-left: 10px;
+  background-color: wheat;
+}
+.col-sm-3{
+  background-color: white;
+  padding-left: 10px;
+  border: 1px solid black;
+  width: 20%;
+  margin-left: 4%;
+  margin-top: 4%;
+
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    height: 2em;
+    margin-top: 40%;
+}
+footer p{
+    text-align: center;
+    padding-top: 5px;
+}

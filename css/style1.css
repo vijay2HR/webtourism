@@ -1,0 +1,69 @@
+*{
+  padding:0;
+  margin:0;
+}
+body{
+background-size:cover ;
+}
+
+header{
+  background-color:blue;
+  height: 5em;
+}
+
+img{
+  margin-left: 5%;
+  margin-top: 10px;
+  width:200px;
+  height:60px;
+}
+header h1{
+float: right;
+padding-right: 40%;
+color: white;
+padding-top: 25px;
+}
+marquee{
+margin-top:1px;
+color:#ee4040; 
+}
+
+/* form */
+.signup{
+float: right;
+border: 2px solid red;
+background-color:burlywood;
+height: 30em;
+margin-top: 8%;
+margin-right: 4%;
+padding: 30px;
+width: 20%;
+}
+
+.signup h1{
+text-align: center;
+color: black;
+}
+
+.signup input{
+height: 1.5em;
+}
+.signup #signup-button{
+width: 48%;
+height:"1.8em";
+color: white;
+background-color: dodgerblue;
+border: 1px solid rgb(255, 30, 135);
+float: left;
+margin-right: 2%;
+}
+footer{
+background-color: black;
+color: white;
+height: 2em;
+margin-top: 40%;
+}
+footer p{
+text-align: center;
+padding-top: 5px;
+}
