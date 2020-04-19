@@ -4,7 +4,7 @@
         <title>Kerala Tourism Web Page</title>
         <link rel="stylesheet" href="CSS/style.css">
     </head>
-<body background="image/KATHAKALI2.jpg">
+    <body background="image/KATHAKALI2.jpg">
     <header>       
       <img src="image/logo.jpg"alt="logo";>
       <h1>WELCOME TO KERALA TOURISM</h1>
@@ -13,40 +13,44 @@
     </header>     
     
     <!-- Login Form -->
-    <form action="3vhomepage.html" class="login">
+    <form class="login" action="3vhomepage.html"  onsubmit="return validate()">
           <h2>User LogIn</h2>
           <br>
           <div class="login-cont">
               <label>User Name</label>
               <br>
-              <input type="text" placeholder="User Name">
-
+              <input type="text" placeholder="Enter Email id" id="email">
+              <br>
+              <label for="error" id="error"></label>  
+              <br> 
           </div>
-          <br>
+           
           <div class="login-cont">
               <label>Password</label>
               <br>
-              <input type="password" placeholder="Password">
-
+              <!-- <input type="password" placeholder="Enter Password" id="pwd"> -->
+              <input type="password" id="psw" placeholder="Enter Password" name="psw" onkeyup="CheckPasswordStrength(this.value)" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"/>
+                <span id="password_strength"></span>
+                <br>
+          <label for="error" id="error1"></label>
+          <br>
           </div>
           <br>
           <div >
-              <!-- <input type="submit" value="Log In">  -->
-              <button id="login-button">Log In</button>
+              <button id="submit">Log In</button>
           </div>
           <br>
           <div class="login-misc">
-              <h5>Need An Account</h5>
+              <h5>Need An Account</h5><br>
               <a href="1vsignup.html" >Sign Up</a>
           </div>
       </form>
+      <script src="index.js"></script>
       <br>
       <footer>
           <p>Copyright@2020</p>
-          
-      </footer>
-      
-</body>
+                </footer>
+      </body>
 </html>
 
 

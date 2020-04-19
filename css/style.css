@@ -44,7 +44,7 @@ header h1{
 .login input{
   height: 1.5em;
 }
-.login #login-button{
+.login #submit{
   width: 100%;
   height:"1.8em";
   color: white;

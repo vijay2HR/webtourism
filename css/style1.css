@@ -45,18 +45,34 @@ text-align: center;
 color: black;
 }
 
-.signup input{
+.signup .signup-cont input{
 height: 1.5em;
+width: 80%;
+
 }
+.signup .signup-cont input{
+  height: 1.5em;
+  
+  }
 .signup #signup-button{
-width: 48%;
+width: 40%;
 height:"1.8em";
 color: white;
-background-color: dodgerblue;
+background-color: black;
 border: 1px solid rgb(255, 30, 135);
 float: left;
 margin-right: 2%;
+text-align: center;
 }
+.signup #submit{
+  width: 40%;
+  height:"1.8em";
+  color: white;
+  background-color: dodgerblue;
+  border: 1px solid rgb(255, 30, 135);
+  float: left;
+  margin-right: 2%;
+  }
 footer{
 background-color: black;
 color: white;
